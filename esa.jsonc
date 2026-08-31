@@ -1,8 +1,8 @@
 {
   "assets": {
-    // 指定构建产物的目录，对应 VitePress 默认的输出路径
-    "dir": "docs/.vitepress/dist"
+    "directory": "docs/.vitepress/dist"
   },
-  // 因为这是纯静态文档，暂时不需要云函数，可以留空
-  "functions": []
+  "function": {
+    "file": "index.js"
+  }
 }

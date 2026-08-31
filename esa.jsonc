@@ -1,6 +1,6 @@
 {
     "name": "xinzhou-doc",
-    "entry": "./docs/index.js",
+    "entry": "index.js",
     "installCommand": "npm install",
     "buildCommand": "npm run docs:build",
     "assets": {
